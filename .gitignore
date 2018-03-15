@@ -2,3 +2,10 @@
 */.DS_Store
 *npm-debug.log
 *bundle.js
+#*.lock
+#*lock.*
+lib/app/public/
+
+/yarn.lock
+/Gemfile.lock
+/package-lock.json
