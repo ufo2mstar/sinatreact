@@ -5,7 +5,7 @@ const Home = () => (
     <h1 className="text-center">Don't panic!</h1>
     {/*<Schedule/>*/}
     {/*<About/>*/}
-    <InpurGroupEg/>
+    {/*<InpurGroupEg/>*/}
     {/*<Prog/>*/}
   </div>
 )
