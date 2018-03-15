@@ -3,15 +3,21 @@ import PropTypes from 'prop-types';
 
 import '../assets/styles/App.scss';
 
+import Header from '../common/header/Header';
+import Main from './pages/Main';
 
-const App = ({ name }) => {
-  return (
-    <h1>Hello, {name}!</h1>
-  );
-};
 
-App.propTypes = {
-  name: PropTypes.string,
-};
+import {Container} from 'reactstrap';
+
+const App = () => (
+    <div>
+        <Header/>
+        <div>
+            <Container>
+                <Main/>
+            </Container>
+        </div>
+    </div>
+);
 
 export default App;
